@@ -8,9 +8,8 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href='https://fonts.googleapis.com/css?family=Annie Use Your Telescope' rel='stylesheet'>
-
-  <title>Qoute for your day!</title>
-
+  <link rel="icon" href="{% static 'main/site-icon.jpg' %}">
+  <title>Quote for your day!</title>
 
 <style>
 body, html {
@@ -64,8 +63,8 @@ body, html {
 <div class="bg-image"></div>
 
 <div class="bg-text">
-  <h4 style="font-size:25px">{{ qoute.content|safe }}</h4>
-  <h4>- {{ qoute.author|safe }}</h4>
+  <h4 style="font-size:25px">{{ quote.content|safe }}</h4>
+  <h4>- {{ quote.author|safe }}</h4>
 </div>
 
 </body>
