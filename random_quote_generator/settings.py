@@ -129,8 +129,6 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 
-STATIC_ROOT = os.path.join(BASE_DIR, 'static_files')
-
-STATICFILES_DIRS = [os.path.join(BASE_DIR, 'static')]  # To detect static path without an app
+STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 
 QUOTE_API_PROVIDER = 'https://quotesondesign.com/wp-json/wp/v2/posts/?orderby=rand'
