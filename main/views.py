@@ -8,7 +8,7 @@ class MainTemplateView(TemplateView):
 
     def get_context_data(self, **kwargs):
         context = super().get_context_data(**kwargs)
-        context['qoute'] = self.get_quote()
+        context['quote'] = self.get_quote()
         return context
 
     @staticmethod

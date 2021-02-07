@@ -32,7 +32,7 @@ DEBUG = env.bool('DEBUG')
 
 ALLOWED_HOSTS = ['127.0.0.1',
                  'aceaceace303030.pythonanywhere.com',
-                 'daily-qoutes.ace-software-solution.tech']
+                 'daily-quotes.ace-software-solution.tech']
 
 
 # Application definition
